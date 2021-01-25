@@ -1,0 +1,104 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "import/no-unresolved": "off",
+        "import/prefer-default-export": "off",
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 150,
+                "tabWidth": 4,
+                "ignoreUrls": true,
+                "ignorePattern": "^import\\s.+\\sfrom\\s.+;$"
+            }
+        ],
+        "no-console": [
+            "error",
+            {
+                "allow": [
+                    "debug",
+                    "warn",
+                    "error"
+                ]
+            }
+        ],
+        "no-void": "off",
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "react/destructuring-assignment": "off",
+        "react/jsx-filename-extension": [
+            "warn",
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".tsx"
+                ]
+            }
+        ],
+        "react/jsx-indent": "off",
+        "react/jsx-indent-props": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/tsx-indent": "off",
+        "react/tsx-indent-props": "off",
+        "react/no-array-index-key": "off",
+        "react/jsx-fragments": "off",
+        "react/prop-types": "off",
+        "react/sort-comp": "off",
+        "react/state-in-constructor": "off",
+        "react/static-property-placement": "off",
+        "react/react-in-jsx-scope": "off",
+        "semi": [
+            "error",
+            "always"
+        ],
+        "@typescript-eslint/explicit-module-boundary-types": "off"
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        },
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".tsx"
+                ]
+            }
+        }
+    }
+}
