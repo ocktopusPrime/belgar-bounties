@@ -2,6 +2,7 @@
   "name": "belgar-bounties-client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "www.belgarbounties.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
