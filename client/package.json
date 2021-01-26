@@ -8,9 +8,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ext ts,tsx",
-    "lint:fix": "eslint . --ext ts,tsx --fix",
-    "client": "npm start",
-    "clientinstall": "npm install"
+    "lint:fix": "eslint . --ext ts,tsx --fix"
   },
   "eslintConfig": {
     "extends": [
