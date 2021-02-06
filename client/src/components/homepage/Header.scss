@@ -1,0 +1,14 @@
+@import 'App.scss';
+
+#header {
+	background-color: antiquewhite;
+	height: 64px;
+	border-bottom: green 1px solid;
+
+	#bar {
+		padding-top: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}

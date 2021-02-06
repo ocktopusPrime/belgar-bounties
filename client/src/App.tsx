@@ -1,9 +1,11 @@
+import Homepage from 'components/homepage/Homepage';
+
+import './App.scss';
+
 export default function App() {
 	return (
 		<div className='App'>
-			<header className='App-header'>
-				<p style={{ fontFamily: 'cursive' }}>Belgar Bounties</p>
-			</header>
+			<Homepage />
 		</div>
 	);
 }

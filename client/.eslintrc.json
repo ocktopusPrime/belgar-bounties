@@ -32,7 +32,7 @@
         "jsx-a11y/no-static-element-interactions": "off",
         "linebreak-style": [
             "error",
-            "unix"
+            "windows"
         ],
         "max-len": [
             "error",
@@ -81,10 +81,6 @@
         "react/state-in-constructor": "off",
         "react/static-property-placement": "off",
         "react/react-in-jsx-scope": "off",
-        "semi": [
-            "error",
-            "always"
-        ],
         "@typescript-eslint/explicit-module-boundary-types": "off"
     },
     "settings": {
