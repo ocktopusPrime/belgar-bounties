@@ -4,9 +4,9 @@ import ChatBubbleIcon from '@material-ui/icons/ChatBubble';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import EmailIcon from '@material-ui/icons/Email';
-import './Header.scss';
+import './NavBar.scss';
 
-export default function Header() {
+export default function NavBar() {
 	return (
 		<>
 			<div id='header'>
